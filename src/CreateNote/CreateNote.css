@@ -1,0 +1,56 @@
+.createNote {
+  text-align: center;
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  max-width: 230px;
+  min-width: 230px;
+  height: 40px;
+  border: none;
+  /* border-bottom: 1px solid lightgray; */
+  box-shadow: 2px 5px 8px #aaaaaa;
+  padding: 10px;
+}
+
+.writeNote {
+  padding: 10px;
+  max-width: 230px;
+  min-width: 230px;
+  height: 125px;
+  border: none;
+  padding-top: 19px;
+  box-shadow: 2px 5px 8px #aaaaaa;
+}
+
+textarea,
+input {
+  outline: none;
+}
+
+.relativeone {
+  position: relative;
+}
+
+.delicon {
+  position: absolute;
+  top: -37px;
+  left: 99px;
+  border-radius: 116px;
+  background-color: white;
+  padding: 10px;
+  /* color: grey; */
+  border-color: blanchedalmond;
+  box-shadow: 2px 5px 8px #aaaaaa;
+  border: none;
+  color: green;
+}
+
+.delicon:hover {
+  background-color: blanchedalmond;
+  color: black;
+}
